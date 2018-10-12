@@ -1,0 +1,33 @@
+{
+  "name": "javascript-refactoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config ./webpack.dev.config.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmwei/javascript-refactoring.git"
+  },
+  "keywords": [
+    "refactoring",
+    "javascript"
+  ],
+  "author": "nmwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmwei/javascript-refactoring/issues"
+  },
+  "homepage": "https://github.com/nmwei/javascript-refactoring#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
