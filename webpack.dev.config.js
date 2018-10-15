@@ -7,6 +7,7 @@ module.exports = {
     path: __dirname,
     filename: './release/bundle.js' 
   },
+  devtool: 'eval-source-map',
   module: {
     rules: [{
     test: /\.js$/,
@@ -14,8 +15,8 @@ module.exports = {
       use: {
         loader: 'babel-loader',
         options: {
-          presets: ['babel-preset-env'],
-          plugins: []
+          presets:  ["env","stage-0"],
+          plugins: ["transform-decorators-legacy"]
         }
       }
     }]
